@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+assets/
+notebooks/
