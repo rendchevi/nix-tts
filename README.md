@@ -6,7 +6,7 @@
 
 This is a repository for our paper, **🐤 Nix-TTS** (Submitted to INTERSPEECH 2022). We released the pretrained models, an interactive demo, and audio samples below.
 
-[📄 Paper Link (Coming Soon)] [[🤗 Interactive Demo]](https://huggingface.co/spaces/rendchevi/nix-tts) [[📢 Audio Samples]](https://drive.google.com/drive/folders/1BJunQY8nBQW5YyZ4MuFN_-T-m91Dk508?usp=sharing)
+[[📄 Paper Link](https://arxiv.org/abs/2203.15643)] [[🤗 Interactive Demo](https://huggingface.co/spaces/rendchevi/nix-tts)] [[📢 Audio Samples](https://drive.google.com/drive/folders/1BJunQY8nBQW5YyZ4MuFN_-T-m91Dk508?usp=sharing)]
 
 **Abstract**&nbsp;&nbsp;&nbsp;&nbsp;We propose Nix-TTS, a lightweight neural TTS (Text-to-Speech) model achieved by applying knowledge distillation to a powerful yet large-sized generative TTS teacher model. Distilling a TTS model might sound unintuitive due to the generative and disjointed nature of TTS architectures, but pre-trained TTS models can be simplified into encoder and decoder structures, where the former encodes text into some latent representation and the latter decodes the latent into speech data. We devise a framework to distill each component in a non end-to-end fashion. Nix-TTS is end-to-end (vocoder-free) with only 5.23M parameters or up to 82 reduction of the teacher model, it achieves over 3.26x and 8.36x inference speedup on Intel-i7 CPU and Raspberry Pi respectively, and still retains a fair voice naturalness and intelligibility compared to the teacher model.
 
