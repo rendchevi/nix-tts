@@ -20,7 +20,7 @@ cd nix-tts
 **Install the dependencies**
 - Install Python dependencies. We recommend `python >= 3.8`
 ```bash
-pip install . -r requirements.txt 
+pip install -r requirements.txt 
 ```
 - Install espeak in your device (for text tokenization).
 ```bash
