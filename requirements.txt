@@ -1,3 +1,3 @@
 numpy
 onnxruntime==1.7.0
-phonemizer
+phonemizer==2.2.1
