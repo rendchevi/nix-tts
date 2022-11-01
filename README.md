@@ -1,8 +1,8 @@
 # **🐤 Nix-TTS**
 
-### **An Incredibly Lightweight End-to-End Text-to-Speech Model via Non End-to-End Distillation**
+### **Lightweight and End-to-end Text-to-Speech via Module-wise Distillation**
 
-#### Rendi Chevi, Radityo Eko Prasojo, Alham Fikri Aji
+#### Rendi Chevi, Radityo Eko Prasojo, Alham Fikri Aji, Andros Tjandra, Sakriani Sakti
 
 This is a repository for our paper, **🐤 Nix-TTS** (Accepted to IEEE SLT 2022). We released the pretrained models, an interactive demo, and audio samples below.
 
