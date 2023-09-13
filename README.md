@@ -39,18 +39,17 @@ Or follow the [official instruction](https://github.com/bootphon/phonemizer#depe
 
 **And running Nix-TTS is as easy as:**
 ```py
-from nix.models.TTS import NixTTSInference
+from nix.models.TTS import NixTTSInference, exportAudio
 from IPython.display import Audio
+import soundfile as sf
 
 # Initiate Nix-TTS
-nix = NixTTSInference(model_dir = "<path_to_the_downloaded_model>")
-# Tokenize input text
-c, c_length, phoneme = nix.tokenize("Born to multiply, born to gaze into night skies.")
-# Convert text to raw speech
-xw = nix.vocalize(c, c_length)
+nix = NixTTSInference(model_dir = "/home/fosanz/models/")
 
-# Listen to the generated speech
-Audio(xw[0,0], rate = 22050)
+# Segment input text into smaller parts
+text = "English texts for beginners to practice reading and comprehension online. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress."
+
+exportAudio(nix, text, max_length=100, filename="test.wav", sample_rate=22050)
 ```
 
 ## **Acknowledgement**
