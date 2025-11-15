@@ -6,7 +6,7 @@
 
 This is a repository for our paper, **🐤 Nix-TTS** (Accepted to IEEE SLT 2022). We released the pretrained models, an interactive demo, and audio samples below.
 
-[[📄 Paper Link](Coming Soon!)] [[🤗 Interactive Demo](https://huggingface.co/spaces/rendchevi/nix-tts)] [[📢 Audio Samples](https://anon1178.github.io/Nix-SLT-Demo/)]
+[[📄 Paper Link](https://ieeexplore.ieee.org/document/10023322)] [[🤗 Interactive Demo](https://huggingface.co/spaces/rendchevi/nix-tts)] [[📢 Audio Samples](https://anon1178.github.io/Nix-SLT-Demo/)]
 
 **Abstract**&nbsp;&nbsp;&nbsp;&nbsp;Several solutions for lightweight TTS have shown promising results. Still, they either rely on a hand-crafted design that reaches non-optimum size or use a neural architecture search but often suffer training costs. We present Nix-TTS, a lightweight TTS achieved via knowledge distillation to a high-quality yet large-sized, non-autoregressive, and end-to-end (vocoder-free) TTS teacher model. Specifically, we offer module-wise distillation, enabling flexible and independent distillation to the encoder and decoder module. The resulting Nix-TTS inherited the advantageous properties of being non-autoregressive and end-to-end from the teacher, yet significantly smaller in size, with only 5.23M parameters or up to 89.34\% reduction of the teacher model; it also achieves over 3.04$\times$ and 8.36$\times$ inference speedup on Intel-i7 CPU and Raspberry Pi 3B respectively and still retains a fair voice naturalness and intelligibility compared to the teacher model.
 
