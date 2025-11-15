@@ -55,4 +55,4 @@ Audio(xw[0,0], rate = 22050)
 
 ## **Acknowledgement**
 - This research is fully and exclusively funded by [Kata.ai](https://kata.ai), where the authors work as part of the [Kata.ai Research Team](https://kata.ai/research).
-- Some of the complex parts of our model, as mentioned in the paper, are adapted from the original implementation of [VITS](https://github.com/jaywalnut310/vits) and [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS).
+- Most of the architecturally complex parts of our model (e.g. VITS model, unsupervised text aligner), as mentioned in the paper, are adapted from the original implementation of [VITS](https://github.com/jaywalnut310/vits) and [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS).
